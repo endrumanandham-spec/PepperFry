@@ -1,0 +1,29 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Output folders
+dist/
+build/
+coverage/
+test-results/
+playwright-report/
+blob-report/
+
+# Environment files
+.env
+.env.*
+config/*.env.ts
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE/editor settings
+.vscode/
+.idea/
