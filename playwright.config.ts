@@ -13,7 +13,7 @@ export default defineConfig({
       name: 'Edge',
       use: {
         browserName: 'chromium',
-        channel: 'msedge',   // 👈 This tells Playwright to use Microsoft Edge
+        channel: 'chromium',   // 👈 This tells Playwright to use Chromium
       },
     },
   ],
